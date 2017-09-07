@@ -1,0 +1,9 @@
+import random
+correct_number = 5
+theGuess= random.randint(1,10);
+print theGuess
+if (theGuess == correct_number):
+	print "good job"
+else: 
+	print "naw b"
+
