@@ -12,5 +12,11 @@ students = [
 	]
 
 print students
-print students[2]
+print "Who is the best? " + students[2]
+
+
+
+teams_as_a_string = "Falcons, Braves, Hawks, Atl United"
+teams_as_a_list = teams_as_a_string.split(",")
+print teams_as_a_list
 
