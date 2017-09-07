@@ -1,0 +1,16 @@
+student1 = "mikayla"
+student2 = "jennifer"
+student3 = "amir"
+student4 = "Zack"
+
+
+students = [
+	"mikayla",
+	"jennifer",
+	"Amir",
+	"Zack",
+	]
+
+print students
+print students[2]
+
