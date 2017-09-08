@@ -12,8 +12,6 @@ output_word = word[:index] + 'uuuuu' + word[index:]
 print output_word
 
 
-plain:  abcdefghijklmnopqrstuvwxyz
-cipher: bcdefghijklmnopqrstuvwxyza
-jibberish = ("lbh zhfg hayrnea jung lbh unir yrnearq")
+
 
 

@@ -1,0 +1,47 @@
+allnum = []
+for i in range(1, 1001):
+	if(i % 3 == 0) or (i % 5 == 0):
+		allnum.append(i)
+print sum(allnum)
+
+
+# num0 = (1)
+# num1 = (1 + num0)
+# num2 = (num0 + num1)
+# num3 = (num2 + num1)
+# num4 = (num2 + num3)
+# seq = (num3 + num4)
+
+# answer = (sum(seq) <= 4,000,000)
+
+# print answer
+
+a = 1
+b = 1
+total = 0
+while a <= 4000000:
+    if a % 2 == 0:
+        total += a
+    # a, b = b, a+b  # the real formula for Fibonacc
+    c = a
+    a = b
+    b = (c + b)
+
+print total
+
+
+big = 600851475143
+while (a * a) <= big:
+	if (a % a == 0):
+		a = (big / a)
+	a = a + 1
+
+
+	print a
+		
+
+
+
+	
+
+
